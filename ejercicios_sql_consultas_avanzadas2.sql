@@ -54,7 +54,22 @@ SELECT COUNT(order_id), YEAR(order_date)
 -- Desde recursos humanos nos piden seleccionar los nombres de las ciudades con 4 o más empleadas de cara a estudiar 
 -- la apertura de nuevas oficinas.--
 
+SELECT city, COUNT(employee_id)
+	FROM employees
+    GROUP BY city
+    HAVING COUNT(employee_id) >= 4; 
+
+-- Solo en Londres hay cuatro empleadas. 
 
 -- 6.Cread una nueva columna basándonos en la cantidad monetaria:
 -- Necesitamos una consulta que clasifique los pedidos en dos categorías ("Alto" y "Bajo") en función de 
 -- la cantidad monetaria total que han supuesto: por encima o por debajo de 2000 euros.--
+
+SELECT order_id, (unit_price * quantity) * (1 - discount) AS totalprice,
+	CASE 
+    WHEN (unit_price * quantity) * (1 - discount) < 2000 THEN "Bajo"
+	ELSE "Alto"   
+    END AS RangoValorPedidos
+FROM order_details
+ORDER BY totalprice DESC;
+
