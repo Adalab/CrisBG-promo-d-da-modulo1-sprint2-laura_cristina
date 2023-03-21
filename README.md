@@ -10,12 +10,18 @@ Se han creado dos carpetas:
       - Funciones argumentos;
       - Classes;
       - Regex;
+      - Ficheros:
+      - SQL + Python 1;
+      - SQL + Python 2;
+      
       
    - La carpeta de SQL contiene ejercicios de:
       - Consultas avanzadas 2;
       - Consultas múltiples tablas 1;
       - Consultas múltiples tablas 2; 
       - Consultas múltiples tablas 3;
+      - Consultas múltiples tablas 4;
+      - Consultas múltiples tablas 5;
 
 
 
