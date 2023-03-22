@@ -5,17 +5,24 @@ Este repositorio incluye los ejercicios de Pair Programming de Cristina Bernabeu
 
 Se han creado dos carpetas:
 
-   - La carpeta Python contiene ejercícios de:
+   - La carpeta Python contiene los siguientes:
       - Funciones intro;
       - Funciones argumentos;
       - Classes;
       - Regex;
+      - Gestión de ficheros;
+      - SQL + Python 1;
+      - SQL + Python 2.
       
-   - La carpeta de SQL contiene ejercicios de:
+      
+   - La carpeta de SQL contiene los siguientes ejercicios:
       - Consultas avanzadas 2;
       - Consultas múltiples tablas 1;
       - Consultas múltiples tablas 2; 
       - Consultas múltiples tablas 3;
+      - Consultas múltiples tablas 4;
+      - Consultas múltiples tablas 5;
+      - CETs.
 
 
 
