@@ -10,7 +10,7 @@ Se han creado dos carpetas:
       - Funciones argumentos;
       - Classes;
       - Regex;
-      - Gestión de ficheros:
+      - Gestión de ficheros;
       - SQL + Python 1;
       - SQL + Python 2.
       
