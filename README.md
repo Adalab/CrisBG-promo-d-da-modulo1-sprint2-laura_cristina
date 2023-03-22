@@ -12,7 +12,7 @@ Se han creado dos carpetas:
       - Regex;
       - Gestión de ficheros:
       - SQL + Python 1;
-      - SQL + Python 2;
+      - SQL + Python 2
       
       
    - La carpeta de SQL contiene los siguientes ejercicios:
@@ -22,6 +22,7 @@ Se han creado dos carpetas:
       - Consultas múltiples tablas 3;
       - Consultas múltiples tablas 4;
       - Consultas múltiples tablas 5;
+      - CETs.
 
 
 
